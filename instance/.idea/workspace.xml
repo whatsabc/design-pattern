@@ -31,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,13 +61,22 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FactoryPattern.Main" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Strategy" />
+      <recent name="CglibProxy" />
+      <recent name="DynamicProxy" />
+      <recent name="AbstractFactoryPattern" />
+      <recent name="SimpleFactoryPattern" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.MiniDuckSimulator">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProxy.Main" />
       <module name="instance" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FactoryPattern.PizzaFactory.*" />
+          <option name="PATTERN" value="DynamicProxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,22 +84,102 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Decorator.Main" />
+      <module name="instance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Adapter.Main" />
+      <module name="instance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Singleton.Main" />
+      <module name="instance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticProxyPattern.Main" />
+      <module name="instance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StaticProxyPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimpleFactory.Main" />
+      <module name="instance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SimpleFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MiniDuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strategy.MiniDuckSimulator" />
+      <module name="instance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Main" />
+        <item itemvalue="应用程序.MiniDuckSimulator" />
+        <item itemvalue="应用程序.Main (5)" />
+        <item itemvalue="应用程序.Main (4)" />
+        <item itemvalue="应用程序.Main (3)" />
+        <item itemvalue="应用程序.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +193,8 @@
       <updated>1598019676094</updated>
       <workItem from="1598019680890" duration="40000" />
       <workItem from="1598019732878" duration="111000" />
-      <workItem from="1598019914480" duration="2807000" />
+      <workItem from="1598019914480" duration="8018000" />
+      <workItem from="1598068578547" duration="8079000" />
     </task>
     <servers />
   </component>
@@ -128,29 +219,53 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1881" y="685" key="#com.intellij.ide.util.MemberChooser" timestamp="1598022324487">
+    <state x="1744" y="727" key="#com.intellij.ide.util.MemberChooser" timestamp="1598064645050">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state x="1881" y="685" key="#com.intellij.ide.util.MemberChooser/0.0.3072.1688@0.0.3072.1688" timestamp="1598022324487" />
-    <state width="938" height="287" key="GridCell.Tab.0.bottom" timestamp="1598022449059">
+    <state x="1744" y="727" key="#com.intellij.ide.util.MemberChooser/0.0.3072.1688@0.0.3072.1688" timestamp="1598064645050" />
+    <state x="2109" y="854" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598064791887">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state width="938" height="287" key="GridCell.Tab.0.bottom/0.0.3072.1688@0.0.3072.1688" timestamp="1598022449059" />
-    <state width="938" height="287" key="GridCell.Tab.0.center" timestamp="1598022449058">
+    <state x="2109" y="854" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.3072.1688@0.0.3072.1688" timestamp="1598064791887" />
+    <state width="937" height="287" key="GridCell.Tab.0.bottom" timestamp="1598086136401">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state width="938" height="287" key="GridCell.Tab.0.center/0.0.3072.1688@0.0.3072.1688" timestamp="1598022449058" />
-    <state width="938" height="287" key="GridCell.Tab.0.left" timestamp="1598022449058">
+    <state width="937" height="287" key="GridCell.Tab.0.bottom/0.0.3072.1688@0.0.3072.1688" timestamp="1598086136401" />
+    <state width="937" height="287" key="GridCell.Tab.0.center" timestamp="1598086136401">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state width="938" height="287" key="GridCell.Tab.0.left/0.0.3072.1688@0.0.3072.1688" timestamp="1598022449058" />
-    <state width="938" height="287" key="GridCell.Tab.0.right" timestamp="1598022449058">
+    <state width="937" height="287" key="GridCell.Tab.0.center/0.0.3072.1688@0.0.3072.1688" timestamp="1598086136401" />
+    <state width="937" height="287" key="GridCell.Tab.0.left" timestamp="1598086136400">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state width="938" height="287" key="GridCell.Tab.0.right/0.0.3072.1688@0.0.3072.1688" timestamp="1598022449058" />
+    <state width="937" height="287" key="GridCell.Tab.0.left/0.0.3072.1688@0.0.3072.1688" timestamp="1598086136400" />
+    <state width="937" height="287" key="GridCell.Tab.0.right" timestamp="1598086136401">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="937" height="287" key="GridCell.Tab.0.right/0.0.3072.1688@0.0.3072.1688" timestamp="1598086136401" />
+    <state width="938" height="343" key="GridCell.Tab.1.bottom" timestamp="1598082607272">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="938" height="343" key="GridCell.Tab.1.bottom/0.0.3072.1688@0.0.3072.1688" timestamp="1598082607272" />
+    <state width="938" height="343" key="GridCell.Tab.1.center" timestamp="1598082607271">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="938" height="343" key="GridCell.Tab.1.center/0.0.3072.1688@0.0.3072.1688" timestamp="1598082607271" />
+    <state width="938" height="343" key="GridCell.Tab.1.left" timestamp="1598082607271">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="938" height="343" key="GridCell.Tab.1.left/0.0.3072.1688@0.0.3072.1688" timestamp="1598082607271" />
+    <state width="938" height="343" key="GridCell.Tab.1.right" timestamp="1598082607271">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="938" height="343" key="GridCell.Tab.1.right/0.0.3072.1688@0.0.3072.1688" timestamp="1598082607271" />
     <state x="934" y="544" key="SettingsEditor" timestamp="1598020048161">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state x="934" y="544" key="SettingsEditor/0.0.3072.1688@0.0.3072.1688" timestamp="1598020048161" />
+    <state x="1437" y="467" width="601" height="804" key="find.popup" timestamp="1598071773017">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state x="1437" y="467" width="601" height="804" key="find.popup/0.0.3072.1688@0.0.3072.1688" timestamp="1598071773017" />
   </component>
 </project>
