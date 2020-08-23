@@ -162,19 +162,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="应用程序.MiniDuckSimulator" />
@@ -198,6 +185,8 @@
       <workItem from="1598019914480" duration="8018000" />
       <workItem from="1598068578547" duration="10040000" />
       <workItem from="1598170000355" duration="1712000" />
+      <workItem from="1598179703397" duration="65000" />
+      <workItem from="1598180107010" duration="154000" />
     </task>
     <servers />
   </component>
