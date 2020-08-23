@@ -1,5 +1,9 @@
 package StaticProxy;
 
+/**
+ * @author Jianshu
+ * @time 20200822
+ */
 public class StaticProxy implements IPrinter {
     private IPrinter iPrinter;
     public StaticProxy(){

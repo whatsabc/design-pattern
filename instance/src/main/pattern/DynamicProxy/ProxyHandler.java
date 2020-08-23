@@ -1,5 +1,9 @@
 package DynamicProxy;
 
+/**
+ * @author Jianshu
+ * @time 20200822
+ */
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;

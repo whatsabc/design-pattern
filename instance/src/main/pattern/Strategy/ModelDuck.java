@@ -1,5 +1,9 @@
 package Strategy;
 
+/**
+ * @author Jianshu
+ * @time 20200822
+ */
 public class ModelDuck extends Duck{
     public ModelDuck(){
         flyBehavior=new FlyNoWay();

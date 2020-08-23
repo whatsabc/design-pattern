@@ -1,5 +1,9 @@
 package Strategy;
 
+/**
+ * @author Jianshu
+ * @time 20200822
+ */
 public class MiniDuckSimulator {
     public static void main(String[] args) {
         Duck duck=new ModelDuck();

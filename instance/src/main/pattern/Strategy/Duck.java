@@ -1,5 +1,9 @@
 package Strategy;
 
+/**
+ * @author Jianshu
+ * @time 20200822
+ */
 public abstract class Duck {
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;

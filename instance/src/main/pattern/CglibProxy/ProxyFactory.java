@@ -4,6 +4,10 @@ import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
 
+/**
+ * @author Jianshu
+ * @time 20200822
+ */
 import java.lang.reflect.Method;
 
 public class ProxyFactory implements MethodInterceptor {
