@@ -70,7 +70,20 @@
       <recent name="SimpleFactoryPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.MiniDuckSimulator">
+  <component name="RunManager" selected="应用程序.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Singleton.Main" />
+      <module name="instance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DynamicProxy.Main" />
       <module name="instance" />
@@ -103,19 +116,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="StaticProxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CglibProxy.Main" />
-      <module name="instance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CglibProxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Main (1)" />
         <item itemvalue="应用程序.MiniDuckSimulator" />
         <item itemvalue="应用程序.Main (4)" />
         <item itemvalue="应用程序.Main (2)" />
         <item itemvalue="应用程序.Main (3)" />
-        <item itemvalue="应用程序.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +187,8 @@
       <workItem from="1598170000355" duration="1712000" />
       <workItem from="1598179703397" duration="65000" />
       <workItem from="1598180107010" duration="154000" />
+      <workItem from="1599234966346" duration="641000" />
+      <workItem from="1599494257680" duration="14000" />
     </task>
     <servers />
   </component>
@@ -219,22 +221,22 @@
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state x="2109" y="854" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.3072.1688@0.0.3072.1688" timestamp="1598064791887" />
-    <state width="743" height="282" key="GridCell.Tab.0.bottom" timestamp="1598171727270">
+    <state width="1511" height="510" key="GridCell.Tab.0.bottom" timestamp="1599288914277">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state width="743" height="282" key="GridCell.Tab.0.bottom/0.0.3072.1688@0.0.3072.1688" timestamp="1598171727270" />
-    <state width="743" height="282" key="GridCell.Tab.0.center" timestamp="1598171727270">
+    <state width="1511" height="510" key="GridCell.Tab.0.bottom/0.0.3072.1688@0.0.3072.1688" timestamp="1599288914277" />
+    <state width="1511" height="510" key="GridCell.Tab.0.center" timestamp="1599288914277">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state width="743" height="282" key="GridCell.Tab.0.center/0.0.3072.1688@0.0.3072.1688" timestamp="1598171727270" />
-    <state width="743" height="282" key="GridCell.Tab.0.left" timestamp="1598171727270">
+    <state width="1511" height="510" key="GridCell.Tab.0.center/0.0.3072.1688@0.0.3072.1688" timestamp="1599288914277" />
+    <state width="1511" height="510" key="GridCell.Tab.0.left" timestamp="1599288914277">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state width="743" height="282" key="GridCell.Tab.0.left/0.0.3072.1688@0.0.3072.1688" timestamp="1598171727270" />
-    <state width="743" height="282" key="GridCell.Tab.0.right" timestamp="1598171727270">
+    <state width="1511" height="510" key="GridCell.Tab.0.left/0.0.3072.1688@0.0.3072.1688" timestamp="1599288914277" />
+    <state width="1511" height="510" key="GridCell.Tab.0.right" timestamp="1599288914277">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state width="743" height="282" key="GridCell.Tab.0.right/0.0.3072.1688@0.0.3072.1688" timestamp="1598171727270" />
+    <state width="1511" height="510" key="GridCell.Tab.0.right/0.0.3072.1688@0.0.3072.1688" timestamp="1599288914277" />
     <state width="938" height="343" key="GridCell.Tab.1.bottom" timestamp="1598154978882">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>

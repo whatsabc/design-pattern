@@ -1,7 +1,7 @@
 package Singleton;
 
 /**
- * 单例模式（懒汉模式）
+ * 单例模式（饿汉模式）
  * @author Jianshu
  * @time 20200822
  */
