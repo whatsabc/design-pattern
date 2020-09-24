@@ -70,26 +70,13 @@
       <recent name="SimpleFactoryPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Singleton.Main" />
-      <module name="instance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="应用程序.MiniDuckSimulator">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicProxy.Main" />
+      <option name="MAIN_CLASS_NAME" value="Factory.Main" />
       <module name="instance" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DynamicProxy.*" />
+          <option name="PATTERN" value="Factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,11 +85,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Decorator.Main" />
+      <option name="MAIN_CLASS_NAME" value="SimpleFactory.Main" />
       <module name="instance" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Decorator.*" />
+          <option name="PATTERN" value="SimpleFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +98,11 @@
       </method>
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticProxy.Main" />
+      <option name="MAIN_CLASS_NAME" value="Observer.Main" />
       <module name="instance" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StaticProxy.*" />
+          <option name="PATTERN" value="Observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +111,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticProxyPattern.Main" />
+      <option name="MAIN_CLASS_NAME" value="Decorator.Main" />
       <module name="instance" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StaticProxyPattern.*" />
+          <option name="PATTERN" value="Decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,13 +149,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Main (1)" />
         <item itemvalue="应用程序.MiniDuckSimulator" />
         <item itemvalue="应用程序.Main (4)" />
-        <item itemvalue="应用程序.Main (2)" />
         <item itemvalue="应用程序.Main (3)" />
+        <item itemvalue="应用程序.Main (2)" />
+        <item itemvalue="应用程序.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +187,8 @@
       <workItem from="1598180107010" duration="154000" />
       <workItem from="1599234966346" duration="641000" />
       <workItem from="1599494257680" duration="14000" />
+      <workItem from="1600919987339" duration="9000" />
+      <workItem from="1600920036113" duration="7274000" />
     </task>
     <servers />
   </component>
@@ -213,30 +213,38 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1744" y="727" key="#com.intellij.ide.util.MemberChooser" timestamp="1598170701408">
+    <state x="1064" y="421" key="#Plugins" timestamp="1600920058816">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state x="1744" y="727" key="#com.intellij.ide.util.MemberChooser/0.0.3072.1688@0.0.3072.1688" timestamp="1598170701408" />
+    <state x="1064" y="421" key="#Plugins/0.0.3072.1688@0.0.3072.1688" timestamp="1600920058816" />
+    <state x="1744" y="727" key="#com.intellij.ide.util.MemberChooser" timestamp="1600921134425">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state x="1744" y="727" key="#com.intellij.ide.util.MemberChooser/0.0.3072.1688@0.0.3072.1688" timestamp="1600921134425" />
     <state x="2109" y="854" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598064791887">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state x="2109" y="854" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.3072.1688@0.0.3072.1688" timestamp="1598064791887" />
-    <state width="1511" height="510" key="GridCell.Tab.0.bottom" timestamp="1599288914277">
+    <state x="1456" y="695" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600942807165">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state width="1511" height="510" key="GridCell.Tab.0.bottom/0.0.3072.1688@0.0.3072.1688" timestamp="1599288914277" />
-    <state width="1511" height="510" key="GridCell.Tab.0.center" timestamp="1599288914277">
+    <state x="1456" y="695" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.3072.1688@0.0.3072.1688" timestamp="1600942807165" />
+    <state width="1511" height="312" key="GridCell.Tab.0.bottom" timestamp="1600942830471">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state width="1511" height="510" key="GridCell.Tab.0.center/0.0.3072.1688@0.0.3072.1688" timestamp="1599288914277" />
-    <state width="1511" height="510" key="GridCell.Tab.0.left" timestamp="1599288914277">
+    <state width="1511" height="312" key="GridCell.Tab.0.bottom/0.0.3072.1688@0.0.3072.1688" timestamp="1600942830471" />
+    <state width="1511" height="312" key="GridCell.Tab.0.center" timestamp="1600942830471">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state width="1511" height="510" key="GridCell.Tab.0.left/0.0.3072.1688@0.0.3072.1688" timestamp="1599288914277" />
-    <state width="1511" height="510" key="GridCell.Tab.0.right" timestamp="1599288914277">
+    <state width="1511" height="312" key="GridCell.Tab.0.center/0.0.3072.1688@0.0.3072.1688" timestamp="1600942830471" />
+    <state width="1511" height="312" key="GridCell.Tab.0.left" timestamp="1600942830470">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state width="1511" height="510" key="GridCell.Tab.0.right/0.0.3072.1688@0.0.3072.1688" timestamp="1599288914277" />
+    <state width="1511" height="312" key="GridCell.Tab.0.left/0.0.3072.1688@0.0.3072.1688" timestamp="1600942830470" />
+    <state width="1511" height="312" key="GridCell.Tab.0.right" timestamp="1600942830471">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1511" height="312" key="GridCell.Tab.0.right/0.0.3072.1688@0.0.3072.1688" timestamp="1600942830471" />
     <state width="938" height="343" key="GridCell.Tab.1.bottom" timestamp="1598154978882">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
