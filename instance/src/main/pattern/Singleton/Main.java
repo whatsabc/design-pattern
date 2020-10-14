@@ -10,12 +10,17 @@ public class Main {
         System.out.println(EagerSingleton.getInstance().hashCode());
         System.out.println(EagerSingleton.getInstance().hashCode());
 
-        Runnable runnable=new Runnable(){
+        Thread threadA=new Thread(new Runnable(){
             public void run(){
                 System.out.println(LazySingleton.getInstance().hashCode());
             }
-        };
-        Thread thread=new Thread(runnable);
-        thread.start();
+        });
+        Thread threadB=new Thread(new Runnable(){
+            public void run(){
+                System.out.println(LazySingleton.getInstance().hashCode());
+            }
+        });
+        threadA.start();
+        threadB.start();
     }
 }
