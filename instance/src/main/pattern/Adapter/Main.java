@@ -3,13 +3,13 @@ package Adapter;
 /**
  * 适配器模式
  * @author Jianshu
- * @time 20200822
+ * @since 20200822
  */
 
 /**
  * 火鸡类
  */
-class WildTurkey implements Turkey{
+class WildTurkey implements Adapter.Turkey {
     public void gobble() {
         System.out.println("Gobble gobble");
     }

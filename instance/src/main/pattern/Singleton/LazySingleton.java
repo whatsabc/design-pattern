@@ -5,7 +5,7 @@ package Singleton;
  * 如果是多线程下，一个线程已经进入了if(instance==null) 但是还没来得及实例化，这时候另外一个线程也进入了if(instance==null) ，
  * 这时便会产生多个实例，所以在多线程的情况下不能使用这种懒汉式加载
  * @author Jianshu
- * @time 20200822
+ * @since 20200822
  */
 public class LazySingleton {
     private static LazySingleton uniqueInstance;//利用一个静态变量来记录Singleton类的唯一实例

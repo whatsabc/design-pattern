@@ -2,7 +2,7 @@ package StaticProxy;
 
 /**
  * @author Jianshu
- * @time 20200822
+ * @since 20200822
  */
 public class Printer implements IPrinter {
     public void print(){

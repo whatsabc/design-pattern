@@ -2,7 +2,7 @@ package DynamicProxy;
 
 /**
  * @author Jianshu
- * @time 20200822
+ * @since 20200822
  */
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

@@ -3,7 +3,7 @@ package Singleton;
 /**
  * 单例模式
  * @author Jianshu
- * @time 20200822
+ * @since 20200822
  */
 public class Main {
     public static void main(String[] args){

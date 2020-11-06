@@ -2,7 +2,7 @@ package Strategy;
 
 /**
  * @author Jianshu
- * @time 20200822
+ * @since 20200822
  */
 
 class FlyNoWay implements FlyBehavior{
@@ -41,7 +41,7 @@ class MuteQuack implements QuackBehavior{
     }
 }
 
-class ModelDuck extends Duck{
+class ModelDuck extends Duck {
     public ModelDuck(){
         flyBehavior=new FlyNoWay();
         quackBehavior=new Quack();

@@ -2,11 +2,11 @@ package Strategy;
 
 /**
  * @author Jianshu
- * @time 20200822
+ * @since 20200822
  */
 public abstract class Duck {
-    FlyBehavior flyBehavior;
-    QuackBehavior quackBehavior;
+    Strategy.FlyBehavior flyBehavior;
+    Strategy.QuackBehavior quackBehavior;
 
     public Duck(){
     }
@@ -26,12 +26,12 @@ public abstract class Duck {
     }
 
     //实例化对象时可以动态的改变对象的行为(比继承灵活性强)
-    public void setFlyBehavior(FlyBehavior fb){
+    public void setFlyBehavior(Strategy.FlyBehavior fb){
         flyBehavior=fb;
     }
 
     //实例化对象时可以动态的改变对象的行为
-    public void setQuackBehavior(QuackBehavior qb){
+    public void setQuackBehavior(Strategy.QuackBehavior qb){
         quackBehavior=qb;
     }
 }

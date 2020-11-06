@@ -3,7 +3,7 @@ package Singleton;
 /**
  * 单例模式（饿汉模式）
  * @author Jianshu
- * @time 20200822
+ * @since 20200822
  */
 public class EagerSingleton {
     //饿汉单例模式

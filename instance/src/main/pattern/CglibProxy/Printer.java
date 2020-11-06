@@ -2,7 +2,7 @@ package CglibProxy;
 
 /**
  * @author Jianshu
- * @time 20200822
+ * @since 20200822
  */
 import StaticProxy.IPrinter;
 

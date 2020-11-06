@@ -2,7 +2,7 @@ package Factory;
 
 /**
  * @author Jianshu
- * @time 20200822
+ * @since 20200822
  */
 public abstract class PizzaStore {
     public Pizza orderPizza(String type) {
