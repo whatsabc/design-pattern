@@ -1,5 +1,10 @@
 package Builder;
 
+/**
+ * 普通版本的建造者模式
+ * @author Jianshu
+ * @since 20201106
+ */
 public class User {
 
     private final String firstName;     // 必传参数

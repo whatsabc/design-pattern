@@ -23,7 +23,7 @@ public class ProxyHandler implements InvocationHandler {
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         System.out.println("打印前");
         Object returnValue=method.invoke(targetObject,args);
-        System.out.println("打印前");
+        System.out.println("打印后");
         return returnValue;
     }
 }
